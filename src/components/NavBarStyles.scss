@@ -58,10 +58,6 @@
         background: #fff;
         border-left: 1px solid #eee;
 
-        .active {
-            right: 0;
-        }
-
         li {
             padding: 1rem;
             width: 100%;
@@ -71,6 +67,10 @@
         a {
             font-size: 1.2rem;
         }
+    }
+
+    .nav-menu.active {
+        right: 0;
     }
 
 }
