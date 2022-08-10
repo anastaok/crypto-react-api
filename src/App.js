@@ -1,12 +1,13 @@
 import React from "react";
 
-import { Hero, Navbar } from "./components";
+import { Featured, Hero, Navbar } from "./components";
 
 function App() {
   return (
     <div>
       <Navbar />
       <Hero />
+      <Featured />
     </div>
   );
 }
