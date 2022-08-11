@@ -1,0 +1,51 @@
+.footer {
+    background-color: var(--background);
+    padding: 5rem 0;
+    clip-path: polygon(0 0, 100% 10%, 100% 100%, 0% 100%);
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        justify-content: space-between;
+        padding: 1rem;
+    }
+
+    .col {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bar {
+        width: 30px;
+        border-bottom: 4px solid var(--primary);
+        margin: 1rem 0;
+    }
+
+    .a {
+        font-size: 1rem;
+    }
+
+    .icon {
+        color: #303030;
+        margin-right: 4px;
+    }
+
+    .h5 {
+        margin-top: 2rem;
+    }
+}
+
+@media screen and (max-width: 940px) {
+    .footer {
+        .container {
+            grid-template-columns: repeat(2,1fr);
+        }
+
+        .col-1 {
+            display: none;
+        }
+    }
+}
+
+
+
